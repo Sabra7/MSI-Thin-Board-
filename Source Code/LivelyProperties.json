@@ -1,0 +1,86 @@
+{
+  "githubUser": {
+    "type": "textbox",
+    "text": "GitHub username",
+    "help": "Shows your repos in the Repos scene",
+    "value": ""
+  },
+  "showPrivateNames": {
+    "type": "checkbox",
+    "text": "Show private repo names",
+    "help": "Off: private repos appear as \"private repo\"",
+    "value": true
+  },
+  "palette": {
+    "type": "dropdown",
+    "text": "Color",
+    "value": 0,
+    "items": [
+      "Ice",
+      "Amber",
+      "Jade",
+      "Violet",
+      "Graphite"
+    ]
+  },
+  "speed": {
+    "type": "slider",
+    "text": "Animation speed",
+    "value": 1,
+    "min": 0.2,
+    "max": 2,
+    "step": 0.05
+  },
+  "bloom": {
+    "type": "slider",
+    "text": "Glow",
+    "value": 0.7,
+    "min": 0,
+    "max": 1.5,
+    "step": 0.05
+  },
+  "showUI": {
+    "type": "checkbox",
+    "text": "Show controls + CPU/GPU readout (fade out when idle)",
+    "value": true
+  },
+  "quality": {
+    "type": "dropdown",
+    "text": "Quality",
+    "help": "Auto lowers itself if FPS drops",
+    "value": 0,
+    "items": [
+      "Auto",
+      "High",
+      "Medium",
+      "Low"
+    ]
+  },
+  "fpsCap": {
+    "type": "dropdown",
+    "text": "FPS cap",
+    "value": 2,
+    "items": [
+      "30",
+      "45",
+      "60"
+    ]
+  },
+  "batterySaver": {
+    "type": "checkbox",
+    "text": "Battery saver (cap 30 FPS on battery)",
+    "value": true
+  },
+  "loadMode": {
+    "type": "dropdown",
+    "text": "Board activity",
+    "help": "Auto follows your real CPU/GPU load",
+    "value": 0,
+    "items": [
+      "Auto (real load)",
+      "Idle",
+      "Medium",
+      "Heavy"
+    ]
+  }
+}

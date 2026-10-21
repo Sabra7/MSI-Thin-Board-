@@ -1,0 +1,5 @@
+{
+  "_note": "All optional - everything is auto-detected. githubUser: force a GitHub account. extraScanRoots: more folders to scan for repos (e.g. [\"D:\\\\Projects\"]).",
+  "githubUser": "",
+  "extraScanRoots": []
+}

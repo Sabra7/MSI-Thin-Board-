@@ -1,0 +1,17 @@
+{
+  "AppVersion": "1.0.0.0",
+  "Title": "MSI Thin Board",
+  "Thumbnail": "preview.jpg",
+  "Preview": "preview.gif",
+  "Desc": "Laptop motherboard that reacts to your real CPU/GPU load, plus your GitHub repos, flying code and widgets (music, focus timer, system).",
+  "Author": "Sabra7",
+  "License": "MIT",
+  "Contact": "https://github.com/Sabra7",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": "--system-information",
+  "IsAbsolutePath": false,
+  "Id": null,
+  "Tags": null,
+  "Version": 0
+}

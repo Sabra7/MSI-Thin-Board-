@@ -1,0 +1,8 @@
+# written by the helper while it runs: your live stats, current song + cover, repo list, log
+/Source Code/data/
+*.tmp
+# compiled on each PC from helper/CsSys.cs - never ship a binary
+/Source Code/helper/CsSys.dll
+# your own Code-scene snippets (copied from snippets.example.js)
+/Source Code/snippets.js
+__pycache__/
